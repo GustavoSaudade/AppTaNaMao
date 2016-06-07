@@ -1,0 +1,123 @@
+body {
+  background: url(imagemFundo.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.fundoOpaco {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  left: 0%;
+  top:0%;
+}
+.loginButtons {
+  color: #FFF;
+  z-index: 200;
+}
+
+.logo {
+  position: absolute;
+  width: 60%;
+  height: 25%;
+  top:5%;
+  left: 20%;
+  border-radius: 15px;
+}
+#logoImg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.texto {
+  position: absolute;
+  width: 90%;
+  height: 13%;
+  top: 35%;
+  left: 5%;
+  text-align: center;
+  font-size: 18px;
+  font-family: cursive;
+  color: #FFF;
+}
+.tenhaAlgoPraEmprestar{
+  position: absolute;
+  width: 90%;
+  height: 10%;
+  left: 5%;
+  top: 50%;
+  border-radius: 15px;
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-family: cursive;
+  background-color: rgba(0, 76, 153, 0.9);
+}
+.precisoDeAlgoEmprestado {
+  position: absolute;
+  width: 90%;
+  height: 10%;
+  left: 5%;
+  top: 65%;
+  border-radius: 15px;
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-family: cursive;
+  background-color: rgba(0, 153, 76, 0.9);
+}
+.entreParaOClubeAgora {
+  position: absolute;
+  width: 90%;
+  height: 10%;
+  left: 5%;
+  top: 80%;
+  border-radius: 15px;
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-family: cursive;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+#linkPerfil {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 200;
+}
+
+/** ============= PERFIL ============ **/
+.Titulo {
+  position: absolute;
+  width: 90%;
+  height: 10%;
+  left: 5%;
+  text-align: center;
+  font-family: cursive;
+  font-size: 18px;
+  color: #FFF;
+  border-radius: 15px;
+  border: solid 3px #FFF;
+}
+.barraLateral {
+  position: absolute;
+  height: 70%;
+  width: 20%;
+  top: 25%;
+  left: 0%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  border: solid 3px #FFF;
+}
+.novidades {
+  position: absolute;
+  width: 75%;
+  height: 70%;
+  top: 25%;
+  left: 23%;
+  border: solid 3px #FFF;
+}
+/** ============= PERFIL =END======== **/
