@@ -1,1 +1,8 @@
-<h1>EMPRESTADO!</h1>
+<div class="superContentEmprestado">
+  <form class="FormOQueVocePrecisaClass" name="formOQueVocePrecisa">
+    <input type="text" name="inputOqueVcPrecisa" id="inputOqueVcPrecisa" placeholder="O que você precisa?">
+    <button type="button" name="buttonProcurar" id="btnProcurar" ng-disable="inputOqueVcPrecisa.$pristine">
+      <img id="imgSearch" src="searchIcon.png" ng-if="!formOQueVocePrecisa.inputOqueVcPrecisa.$pristine"/>
+    </button>
+  </form>
+</div>

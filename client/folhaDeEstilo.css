@@ -121,3 +121,31 @@ body {
   border: solid 3px #FFF;
 }
 /** ============= PERFIL =END======== **/
+
+/** ============= O QUE VOCÊ PRECISA ======= **/
+.FormOQueVocePrecisaClass {
+  position: absolute;
+  width: 90%;
+  height: 7%;
+  left: 5%;
+  top: 10%;
+}
+#inputOqueVcPrecisa {
+  position: absolute;
+  width: 80%;
+  height: 100%;
+}
+#btnProcurar {
+  position: absolute;
+  width: 20%;
+  height: 115%;
+  left: 82%;
+}
+#imgSearch {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  top:5%;
+  left: 5%;
+}
+/** ============= O QUE VOCÊ PRECISA =END=== **/
