@@ -12,6 +12,7 @@ import angularMeteor from 'angular-meteor';
 import uiRouter from 'angular-ui-router';
 
 import './socially.html';
+import { name as Intro } from '../intro/intro';
 import { name as Home } from '../home/home';
 import { name as Perfil } from '../perfil/perfil';
 import { name as Emprestado } from '../emprestado/emprestado';
@@ -33,6 +34,7 @@ export default angular.module(name, [
   Perfil,
   Emprestado,
   Ativo,
+    Intro,
   'accounts.ui'
 ])
   .component(name, {
@@ -47,7 +49,7 @@ export default angular.module(name, [
     function config($locationProvider, $urlRouterProvider) {
       'ngInject';
       $locationProvider.html5Mode(true);
-      $urlRouterProvider.otherwise('/home');
+      $urlRouterProvider.otherwise('/intro');
     }
 
     function run($rootScope, $state) {

@@ -25,6 +25,10 @@ body {
   top:5%;
   left: 20%;
   border-radius: 15px;
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
 }
 #logoImg {
   position: absolute;
@@ -55,6 +59,10 @@ body {
   font-size: 18px;
   font-family: cursive;
   background-color: rgba(0, 76, 153, 0.9);
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
 }
 .precisoDeAlgoEmprestado {
   position: absolute;
@@ -68,6 +76,10 @@ body {
   font-size: 18px;
   font-family: cursive;
   background-color: rgba(0, 153, 76, 0.9);
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
 }
 .entreParaOClubeAgora {
   position: absolute;
@@ -81,6 +93,10 @@ body {
   font-size: 18px;
   font-family: cursive;
   background-color: rgba(0, 0, 0, 0.9);
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
 }
 #linkPerfil {
   position: absolute;
