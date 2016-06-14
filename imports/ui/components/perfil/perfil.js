@@ -17,11 +17,22 @@ class Perfil {
     'ngInject';
 
     $reactive(this).attach($scope);
+
+    this.showTitle = "meuTaNaMao";
+    this.showDiv = "novidades";
 //============================= SUBSCRIBES =====================================
 
 //============================= SUBSCRIBES =END=================================
 //============================= METHODS ========================================
+  this.clicaMinhaEstante = function() {
+    this.showTitle = "minhaEstante";
+    this.showDiv = "minhaEstante";
+  }
 
+  this.clicaMeuTaNaMao = function() {
+    this.showTitle = "meuTaNaMao";
+    this.showDiv = "novidades";
+  }
 //============================= METHODS =END====================================
   }
 }

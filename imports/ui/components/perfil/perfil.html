@@ -1,13 +1,26 @@
 <div class="perfilSuperContent">
-  <div class="Titulo">
-    <p>Meu TaNaMao</p>
-  </div>
+    <div class="Titulo">
+        <p id="meuTaNaMao" ng-show="perfil.showTitle=='meuTaNaMao'">Meu TaNaMao</p>
+        <p id="minhaEstante" ng-show="perfil.showTitle=='minhaEstante'">Minha Estante</p>
+    </div>
 
-  <div class="barraLateral">
+    <div class="barraLateral">
+        <div id="buttonMinhaEstante" ng-click="perfil.clicaMinhaEstante()">
 
-  </div>
+        </div>
 
-  <div class="novidades">
+        <div id="buttonMeuPerfil" ng-click="perfil.clicaMeuTaNaMao()">
 
-  </div>
+        </div>
+
+    </div>
+
+    <div class="novidades" ng-show="perfil.showDiv=='novidades'">
+      <h3>NOVIDADES</h3>
+    </div>
+
+    <div class="minhaEstante" ng-show="perfil.showDiv=='minhaEstante'">
+      <h3>Minha Estante</h3>
+    </div>
+
 </div>
