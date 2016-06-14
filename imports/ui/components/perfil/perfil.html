@@ -2,16 +2,15 @@
     <div class="Titulo">
         <p id="meuTaNaMao" ng-show="perfil.showTitle=='meuTaNaMao'">Meu TaNaMao</p>
         <p id="minhaEstante" ng-show="perfil.showTitle=='minhaEstante'">Minha Estante</p>
+        <p id="meuPerfil" ng-show="perfil.showTitle=='meuPerfil'">Meu Perfil</p>
     </div>
 
     <div class="barraLateral">
-        <div id="buttonMinhaEstante" ng-click="perfil.clicaMinhaEstante()">
+        <div id="buttonMinhaEstante" ng-click="perfil.clicaMinhaEstante()"></div>
 
-        </div>
-
-        <div id="buttonMeuPerfil" ng-click="perfil.clicaMeuTaNaMao()">
-
-        </div>
+        <div id="buttonMeuTaNaMao" ng-click="perfil.clicaMeuTaNaMao()"></div>
+        
+        <div id="buttonMeuPerfil" ng-click="perfil.clicaMeuPerfil()"></div>
 
     </div>
 
@@ -20,7 +19,11 @@
     </div>
 
     <div class="minhaEstante" ng-show="perfil.showDiv=='minhaEstante'">
-      <h3>Minha Estante</h3>
+      <h3>MINHA ESTANTE</h3>
+    </div>
+    
+    <div class="meuPerfil" ng-show="perfil.showDiv=='meuPerfil'">
+      <h3>MEU PERFIL</h3>
     </div>
 
 </div>

@@ -110,6 +110,10 @@ body {
   position: absolute;
   left: 35%;
 }
+#meuPerfil {
+    position: absolute;
+    left: 35%;
+}
 .barraLateral {
   position: absolute;
   height: 70%;
@@ -148,6 +152,20 @@ body {
   animation-duration: 1s;
 }
 
+.meuPerfil {
+    position: absolute;
+    width: 75%;
+    height: 70%;
+    top: 25%;
+    left: 23%;
+    color: #FFF;
+    border: solid 3px #FFF;
+    -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
 #buttonMinhaEstante {
     position: absolute;
     width: 85%;
@@ -163,6 +181,16 @@ body {
     width: 85%;
     height: 15%;
     top: 30%;
+    left: 5%;
+    border-radius: 15px;
+    border: solid 3px #FFF;
+}
+
+#buttonMeuTaNaMao {
+    position: absolute;
+    width: 85%;
+    height: 15%;
+    top: 50%;
     left: 5%;
     border-radius: 15px;
     border: solid 3px #FFF;

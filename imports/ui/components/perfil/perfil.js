@@ -33,6 +33,11 @@ class Perfil {
     this.showTitle = "meuTaNaMao";
     this.showDiv = "novidades";
   }
+  
+  this.clicaMeuPerfil = function() {
+    this.showTitle = "meuPerfil";
+    this.showDiv = "meuPerfil";
+  }
 //============================= METHODS =END====================================
   }
 }
